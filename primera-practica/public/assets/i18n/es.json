@@ -1,0 +1,26 @@
+{
+    "NAVBAR": {
+        "HOME": "Inicio",
+        "ABOUT": "Acerca de",
+        "CONTACT": "Contacto"
+    },
+    "HOME": {
+        "BIENVENIDO": "Bienvenido a la página de "
+    },
+    "CARD": {
+        "TEXT": "Card de ejemplo"
+    },
+    "FOOTER": {
+        "TEXT": "Footer de mi página"
+    },
+    "ABOUT": {
+        "TITULO": "Sobre mí",
+        "TEXTO": "Me llamo  y estoy aprendiendo ."
+    },
+    "CONTACT": {
+        "TITULO": "Formulario de contacto",
+        "NOMBRE": "Nombre de usuario:",
+        "EMAIL": "Correo electrónico",
+        "MENSAJE": "Mensaje"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "NAVBAR": {
+        "HOME": "Home",
+        "ABOUT": "About",
+        "CONTACT": "Contact"
+    },
+    "HOME": {
+        "BIENVENIDO": "Welcome to the page of "
+    },
+    "CARD": {
+        "TEXT": "Example card"
+    },
+    "FOOTER": {
+        "TEXT": "Footer of my page"
+    },
+    "ABOUT": {
+        "TITULO": "About me",
+        "TEXTO": "I am learning Angular."
+    },
+    "CONTACT": {
+        "TITULO": "Contact form",
+        "NOMBRE": "Username:",
+        "EMAIL": "Email",
+        "MENSAJE": "Message"
+    }
+}
