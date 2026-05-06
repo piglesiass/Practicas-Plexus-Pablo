@@ -1,0 +1,32 @@
+<p>home works!</p>
+<button (click)="togglePulsado()">Mostrar/Ocultar</button>
+
+@if(pulsado){
+  <p>El botón ha sido pulsado.</p>
+}
+
+<ul>
+    @for (coche of coches; track coche){
+        <li>{{ coche }}</li>
+    }
+</ul>
+
+@switch (rolUsuario){
+    @case ('admin'){
+        <p>Bienvenido, administrador.</p>
+    }
+    @case ('user'){
+        <p>Bienvenido, usuario.</p>
+    }
+    @default {
+        <p>Inicie Sesión.</p>
+    }
+}
+
+<p appAgrandar>Este texto se agranda al pasar el mouse por encima.</p>
+
+<button appContador>Contar Clicks</button>
+
+<p appMostrarRol="admin">Este texto solo se muestra para el rol admin</p>
+
+<input type="text" placeholder="Escribe algo..." appFocusInput>
