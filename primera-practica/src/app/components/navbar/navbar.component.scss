@@ -1,16 +1,17 @@
-nav{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    gap: 110px;
-    font-size: 20px;
+
+mat-toolbar {
+    background-color: #810081;
+  justify-content:flex-start;
+  gap: 40px;
 }
-
-div{
-    border: 2px solid #93b3c7;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: #d7e7f1;
-    height: 20px;
-
+a {
+  color: white;
+  font-size: 18px;
+}
+button {
+  color: white;
+  font-size: 18px;
+}
+.spacer {
+  flex: 1 1 auto;
 }

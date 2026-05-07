@@ -2,10 +2,13 @@ import { Component } from '@angular/core';
 
 import { RouterLink } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 @Component({
   selector: 'app-navbar',
-  imports: [RouterLink, TranslateModule],
+  imports: [RouterLink, TranslateModule, MatToolbarModule, MatButtonModule, MatIconModule],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss'
 })

@@ -1,15 +1,10 @@
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
-    border: 2px solid #93b3c7;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: #d7e7f1;
+mat-toolbar {
+    background-color: #810081;
+  justify-content:center;
+  gap: 40px;
 }
 
-p{
-    font-size: 18px;
-    color: #333;
+a {
+  color: white;
+  font-size: 18px;
 }
