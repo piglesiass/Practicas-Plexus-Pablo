@@ -2,10 +2,11 @@ import { CommonModule, NgFor } from '@angular/common';
 import { Component, inject, Inject, OnInit } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { User, UserService } from '../../services/user.service';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-about',
-  imports: [TranslateModule, CommonModule],
+  imports: [TranslateModule, CommonModule, RouterLink],
   styleUrl: './about.component.scss',
   templateUrl: './about.component.html',
 })
