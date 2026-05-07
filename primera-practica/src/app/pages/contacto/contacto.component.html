@@ -1,19 +1,21 @@
-<form >
-    <p>{{ 'CONTACT.FORM' | translate }}</p>
-    <div class="campo">
-        <label>{{ 'CONTACT.NAME' | translate }}</label>
-        <input type="text" placeholder="Introduce tu nombre">        
-    </div>
+<mat-card appearance="outlined">
+<form class="campo">
+  <mat-form-field class="campo">
+    <mat-label>{{ 'CONTACT.NAME' | translate }}</mat-label>
+    <input matInput placeholder="Introduce tu nombre" type="text">
+  </mat-form-field>
 
-    <div class="campo">
-        <label >{{ 'CONTACT.EMAIL' | translate }}</label>
-        <input type="email" placeholder="Introduce tu correo electronico">
-    </div>
+  <mat-form-field class="campo">
+    <mat-label>{{ 'CONTACT.EMAIL' | translate }}</mat-label>
+    <input matInput placeholder="Introduce tu correo electronico" type="email">
+  </mat-form-field>
 
-    <div class="campo">
-        <label >{{ 'CONTACT.MESSAGE' | translate }}</label>
-        <textarea placeholder="Escribe tu mensaje"></textarea>
-    </div>
-
+  <mat-form-field class="campo">
+    <mat-label>{{ 'CONTACT.MESSAGE' | translate }}</mat-label>
+    <textarea matInput placeholder="Escribe tu mensaje"></textarea>
+  </mat-form-field>
 </form>
+
+</mat-card>
+
 <app-footer></app-footer>
