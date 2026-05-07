@@ -1,0 +1,25 @@
+table{
+    width: 100%;
+    border-collapse:collapse;
+    border-spacing: 10px;
+}
+thead{
+    background-color: #93b3c7;
+    color: white;
+    border: 2px solid #93b3c7;
+    padding: 20px;
+}
+tbody{
+    background-color: #d7e7f1;
+    border: 2px solid #93b3c7;
+    border-radius: 10px;
+    padding: 20px;
+}
+tr, td{
+    border: 2px solid #93b3c7;
+    padding: 10px;
+}
+th{
+    border: 2px solid #e8ebec;
+    padding: 10px;
+}

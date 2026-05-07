@@ -14,8 +14,8 @@
         "TEXT": "Footer of my page"
     },
     "ABOUT": {
-        "TITULO": "About me",
-        "TEXTO": "I am learning Angular."
+        "TITULO": "User Table",
+        "TEXTO": "This is the user table obtained from the API."
     },
     "CONTACT": {
         "TITULO": "Contact form",

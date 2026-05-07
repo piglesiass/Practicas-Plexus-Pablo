@@ -1,2 +1,25 @@
-<h1>{{ 'ABOUT.HEADER' | translate }}</h1>
-<p>{{ 'ABOUT.PARAGRAPH' | translate }}</p>
+<h1>{{ 'ABOUT.TITULO' | translate }}</h1>
+<p>{{ 'ABOUT.TEXTO' | translate }}</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Username</th>
+            <th>Phone</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (user of users; track user) {
+            <tr>
+                <td>{{user.id}}</td>
+                <td>{{ user.name }}</td>
+                <td>{{ user.email }}</td>
+                <td>{{user.username}}</td>
+                <td>{{user.phone}}</td>
+            </tr>
+        }
+    </tbody>
+</table>

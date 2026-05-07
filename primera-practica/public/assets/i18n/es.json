@@ -14,8 +14,8 @@
         "TEXT": "Footer de mi página"
     },
     "ABOUT": {
-        "TITULO": "Sobre mí",
-        "TEXTO": "Me llamo  y estoy aprendiendo ."
+        "TITULO": "Tabla de usuarios",
+        "TEXTO": "Esta es la tabla de usuarios obtenida de la API."
     },
     "CONTACT": {
         "TITULO": "Formulario de contacto",
