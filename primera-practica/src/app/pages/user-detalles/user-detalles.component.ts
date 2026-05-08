@@ -2,9 +2,10 @@ import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { UserService, User } from '../../services/user.service';
 import {MatCardModule} from '@angular/material/card';
+import { TranslateModule } from '@ngx-translate/core';
 @Component({
   selector: 'app-user-detalles',
-  imports: [MatCardModule],
+  imports: [MatCardModule, TranslateModule],
   templateUrl: './user-detalles.component.html',
   styleUrl: './user-detalles.component.scss'
 })

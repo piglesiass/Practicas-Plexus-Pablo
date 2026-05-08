@@ -8,10 +8,11 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectChange, MatSelectModule } from '@angular/material/select';
+import {MatButtonModule} from '@angular/material/button';
 
 @Component({
   selector: 'app-about',
-  imports: [TranslateModule, CommonModule, RouterLink, MatTableModule, MatDividerModule, MatFormFieldModule, MatInputModule, MatSelectModule],
+  imports: [TranslateModule, CommonModule, RouterLink, MatTableModule, MatDividerModule, MatFormFieldModule, MatInputModule, MatSelectModule, MatButtonModule],
   styleUrl: './about.component.scss',
   templateUrl: './about.component.html',
 })

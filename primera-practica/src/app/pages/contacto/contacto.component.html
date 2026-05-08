@@ -1,12 +1,12 @@
 <mat-card appearance="outlined">
   <mat-card-header>
-    <h1>Detalles del usuario</h1>
+    <h1>{{ 'CONTACT.TITULO' | translate }}</h1>
 
   </mat-card-header>
   <mat-card-content>
     <form class="campo">
      <mat-form-field class="campo">
-       <mat-label>{{ 'CONTACT.NAME' | translate }}</mat-label>
+       <mat-label>{{ 'CONTACT.NOMBRE' | translate }}</mat-label>
        <input matInput placeholder="Introduce tu nombre" type="text">
      </mat-form-field>  
 
@@ -16,7 +16,7 @@
      </mat-form-field>  
 
      <mat-form-field class="campo">
-       <mat-label>{{ 'CONTACT.MESSAGE' | translate }}</mat-label>
+       <mat-label>{{ 'CONTACT.MENSAJE' | translate }}</mat-label>
        <textarea matInput placeholder="Escribe tu mensaje"></textarea>
      </mat-form-field>
     </form>

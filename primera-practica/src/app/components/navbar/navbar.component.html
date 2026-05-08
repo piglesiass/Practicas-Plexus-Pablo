@@ -1,7 +1,7 @@
 <mat-toolbar>
-  <a mat-button routerLink="/">Inicio</a>
-  <a mat-button routerLink="/about">Acerca de</a>
-  <a mat-button routerLink="/contacto">Contacto</a>
+  <a mat-button routerLink="/">{{ 'NAVBAR.HOME' | translate }}</a>
+  <a mat-button routerLink="/about">{{ 'NAVBAR.ABOUT' | translate }}</a>
+  <a mat-button routerLink="/contacto">{{ 'NAVBAR.CONTACT' | translate }}</a>
   <span class="spacer"></span>
   <button mat-button (click)="cambiarIdioma()">EN/ES</button>
 </mat-toolbar>

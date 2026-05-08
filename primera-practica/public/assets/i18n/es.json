@@ -15,12 +15,33 @@
     },
     "ABOUT": {
         "TITULO": "Tabla de usuarios",
-        "TEXTO": "Esta es la tabla de usuarios obtenida de la API."
+        "TEXTO": "Esta es la tabla de usuarios obtenida de la API.",
+        "INPUT": "Filtro por nombre",
+        "INPUTPLACEHOLDER": "Introduce un nombre",
+        "SELECT": "Filtro por ciudad",
+        "SELECTPLACEHOLDER": "Todas las ciudades",
+        "RESET": "Reiniciar filtros",
+        "NOMBRE": "Nombre",
+        "EMAIL": "Correo electrónico",
+        "USERNAME": "Nombre de usuario",
+        "PHONE": "Teléfono"
     },
     "CONTACT": {
         "TITULO": "Formulario de contacto",
         "NOMBRE": "Nombre de usuario:",
         "EMAIL": "Correo electrónico",
         "MENSAJE": "Mensaje"
+    }, 
+    "USER": {
+        "NOMBRE": "Nombre: ",
+        "NOMBREUSUARIO": "Nombre de usuario: ",
+        "EMAIL": "Correo electrónico: ",
+        "PHONE": "Teléfono: ",
+        "CALLE": "Calle: ",
+        "SUITE": "Suite: ",
+        "CIUDAD": "Ciudad: ",
+        "CODIGOPOSTAL": "Código postal: ",
+        "LATITUD": "Latitud: ",
+        "LONGITUD": "Longitud: "
     }
 }

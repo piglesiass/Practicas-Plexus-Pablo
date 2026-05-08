@@ -5,16 +5,16 @@
         </mat-card-header>
         <mat-card-content>
             <div class="cuerpo">
-                <p>Nombre: {{ user.name }}</p>
-                <p>Nombre de usuario: {{ user.username }}</p>
-                <p>Email: {{ user.email }}</p>
-                <p>Teléfono: {{ user.phone }}</p>
-                <p>Calle: {{ user.address.street }}</p>
-                <p>Suite: {{ user.address.suite }}</p>
-                <p>Ciudad: {{ user.address.city }}</p>
-                <p>Código postal: {{ user.address.zipcode }}</p>
-                <p>Latitud: {{ user.address.geo.lat }}</p>
-                <p>Longitud: {{ user.address.geo.lng }}</p>        
+                <p>{{ 'USER.NOMBRE' | translate }}</p>
+                <p>{{ 'USER.NOMBREUSUARIO' | translate }} {{ user.username }}</p>
+                <p>{{ 'USER.EMAIL' | translate }} {{ user.email }}</p>
+                <p>{{ 'USER.PHONE' | translate }} {{ user.phone }}</p>
+                <p>{{ 'USER.CALLE' | translate }} {{ user.address.street }}</p>
+                <p>{{ 'USER.SUITE' | translate }} {{ user.address.suite }}</p>
+                <p>{{ 'USER.CIUDAD' | translate }} {{ user.address.city }}</p>
+                <p>{{ 'USER.CODIGOPOSTAL' | translate }} {{ user.address.zipcode }}</p>
+                <p>{{ 'USER.LATITUD' | translate }} {{ user.address.geo.lat }}</p>
+                <p>{{ 'USER.LONGITUD' | translate }} {{ user.address.geo.lng }}</p>        
             </div>
         </mat-card-content>
     </mat-card>
