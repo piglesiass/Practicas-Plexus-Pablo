@@ -2,7 +2,9 @@
     "NAVBAR": {
         "HOME": "Home",
         "ABOUT": "About",
-        "CONTACT": "Contact"
+        "CONTACT": "Contact",
+        "LOGOUT": "Logout",
+        "LOGIN": "Login"
     },
     "HOME": {
         "BIENVENIDO": "Welcome to the page of "
@@ -33,6 +35,7 @@
         "MENSAJE": "Message"
     },
     "USER": {
+        "TITULO": "User Information",
         "NOMBRE": "Name: ",
         "NOMBREUSUARIO": "Username: ",
         "EMAIL": "Email: ",
@@ -43,5 +46,11 @@
         "CODIGOPOSTAL": "Postal Code: ",
         "LATITUD": "Latitud: ",
         "LONGITUD": "Longitud: "
+    },
+    "LOGIN": {
+        "TITULO": " Login",
+        "EMAIL": "Email",
+        "PASSWORD": "Password",
+        "BUTTON": "Login"
     }
 }

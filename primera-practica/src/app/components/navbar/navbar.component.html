@@ -3,5 +3,11 @@
   <a mat-button routerLink="/about">{{ 'NAVBAR.ABOUT' | translate }}</a>
   <a mat-button routerLink="/contacto">{{ 'NAVBAR.CONTACT' | translate }}</a>
   <span class="spacer"></span>
+  @if (isLoggedIn()){
+    <button mat-flat-button (click)="logut()">{{ 'NAVBAR.LOGOUT' | translate }}</button>
+  } @else {
+    <button mat-flat-button routerLink="/login">{{ 'NAVBAR.LOGIN' | translate }}</button>
+  }
+
   <button mat-button (click)="cambiarIdioma()">EN/ES</button>
 </mat-toolbar>

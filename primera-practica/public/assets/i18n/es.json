@@ -2,7 +2,9 @@
     "NAVBAR": {
         "HOME": "Inicio",
         "ABOUT": "Acerca de",
-        "CONTACT": "Contacto"
+        "CONTACT": "Contacto",
+        "LOGOUT": "Cerrar Sesión",
+        "LOGIN": "Iniciar Sesión"
     },
     "HOME": {
         "BIENVENIDO": "Bienvenido a la página de "
@@ -33,6 +35,7 @@
         "MENSAJE": "Mensaje"
     }, 
     "USER": {
+        "TITULO": "Información del usuario",
         "NOMBRE": "Nombre: ",
         "NOMBREUSUARIO": "Nombre de usuario: ",
         "EMAIL": "Correo electrónico: ",
@@ -43,5 +46,11 @@
         "CODIGOPOSTAL": "Código postal: ",
         "LATITUD": "Latitud: ",
         "LONGITUD": "Longitud: "
+    },
+    "LOGIN": {
+        "TITULO": " Inicio de sesión",
+        "EMAIL": "Correo electrónico",
+        "PASSWORD": "Contraseña",
+        "BUTTON": "Iniciar sesión"
     }
 }

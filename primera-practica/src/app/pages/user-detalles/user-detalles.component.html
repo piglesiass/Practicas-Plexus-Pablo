@@ -1,7 +1,7 @@
 @if (user){
     <mat-card appearance="outlined">
         <mat-card-header>
-            <h1>Detalles del usuario {{ user.id }}</h1>
+            <h1>{{ 'USER.TITULO' | translate }} {{ user.id }}</h1>
         </mat-card-header>
         <mat-card-content>
             <div class="cuerpo">
