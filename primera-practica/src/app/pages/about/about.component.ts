@@ -4,10 +4,11 @@ import { TranslateModule } from '@ngx-translate/core';
 import { User, UserService } from '../../services/user.service';
 import { RouterLink } from '@angular/router';
 import {MatTableModule} from '@angular/material/table';
+import { MatDividerModule } from '@angular/material/divider';
 
 @Component({
   selector: 'app-about',
-  imports: [TranslateModule, CommonModule, RouterLink, MatTableModule],
+  imports: [TranslateModule, CommonModule, RouterLink, MatTableModule, MatDividerModule],
   styleUrl: './about.component.scss',
   templateUrl: './about.component.html',
 })
