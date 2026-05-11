@@ -5,7 +5,9 @@ import { provideTranslateHttpLoader } from '@ngx-translate/http-loader';
 
 
 import { routes } from './app.routes';
-import { provideHttpClient } from '@angular/common/http';
+import { provideHttpClient, withInterceptors } from '@angular/common/http';
+import { authGuard } from './core/guards/auth.guard';
+import { authInterceptor } from './interceptors/auth.interceptor';
 
 export const appConfig: ApplicationConfig = {
   providers: [provideZoneChangeDetection({ eventCoalescing: true }), provideRouter(routes), provideTranslateService({
@@ -13,6 +15,6 @@ export const appConfig: ApplicationConfig = {
     fallbackLang: 'en',
     lang: 'es'
     }),
-    provideHttpClient()
+    provideHttpClient(withInterceptors([authInterceptor]))
   ]
 };
