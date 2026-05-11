@@ -7,7 +7,9 @@
         "LOGIN": "Iniciar Sesión"
     },
     "HOME": {
-        "BIENVENIDO": "Bienvenido a la página de "
+        "BIENVENIDO": "Bienvenido a la página de ",
+        "SUBTITULO": "Subtexto de prueba",
+        "BOTON": "Ver más"
     },
     "CARD": {
         "TEXT": "Card de ejemplo"

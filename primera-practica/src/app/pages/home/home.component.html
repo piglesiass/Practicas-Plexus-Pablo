@@ -1,11 +1,28 @@
-<p>{{ 'HOME.BIENVENIDO' | translate }} {{ Nombre }}.</p>
+<p class="titulo">{{ 'HOME.BIENVENIDO' | translate }} {{ Nombre }}.</p>
+<p class="subtitulo">{{ 'HOME.SUBTITULO' | translate }}</p>
+<button mat-flat-button class="boton">{{ 'HOME.BOTON' | translate }}</button>
+
+<ul class="lista">
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+  <li>Elemento 4</li>
+</ul>
+
+<div class="pelota"></div>
+<button mat-flat-button (click)="play()">play</button>
+<button mat-flat-button (click)="pause()">pause</button>
+<button mat-flat-button (click)="reverse()">reverse</button>
+<button mat-flat-button (click)="seek()">seek</button>
+<button mat-flat-button (click)="progress()">progress</button>
+
 
 <mat-divider></mat-divider>
 
 <div>
-    <app-card></app-card>
-    <app-card></app-card>
-    <app-card></app-card>   
+    <app-card class="card-item"></app-card>
+    <app-card class="card-item"></app-card>
+    <app-card class="card-item"> </app-card>   
 </div>
 
 <app-footer></app-footer>

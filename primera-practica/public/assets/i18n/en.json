@@ -7,7 +7,9 @@
         "LOGIN": "Login"
     },
     "HOME": {
-        "BIENVENIDO": "Welcome to the page of "
+        "BIENVENIDO": "Welcome to the page of ",
+        "SUBTITULO": "Testing Subtext",
+        "BOTON": "See more"
     },
     "CARD": {
         "TEXT": "Example card"
