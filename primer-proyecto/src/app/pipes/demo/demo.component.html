@@ -8,3 +8,9 @@
 <p>{{ porcentaje | percent }}</p>
 <p>{{ texto | slice:0:10 }}</p>
 <p>{{ objeto | json }}</p>
+
+<p>{{ 'Carlos' | saludo }}</p>
+<p>{{ 2 | doble }}</p>
+<p [innerHTML]=" texto | resaltar"></p>
+
+<p>{{ fechaNacimiento | edad }}</p>
