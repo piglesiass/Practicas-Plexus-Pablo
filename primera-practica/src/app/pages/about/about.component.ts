@@ -24,6 +24,8 @@ export class AboutComponent implements OnInit {
   private userService = inject(UserService);
 
   ngOnInit(){
+      console.log('About cargado');
+
     this.userService.getUsers().subscribe({
       next: (data) => this.users.set(data),
       error: (err) => console.error('Error al obtener usuarios', err)
@@ -52,4 +54,6 @@ export class AboutComponent implements OnInit {
     this.filtroNombre.set("");
     this.filtroCiudad.set("");
   }
+
+  
 }
