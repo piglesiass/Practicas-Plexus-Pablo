@@ -8,6 +8,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
 import { Router } from '@angular/router';
+import { LoginService } from '../../services/login.service';
 
 @Component({
   selector: 'app-login',
@@ -17,10 +18,19 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent {
   private router = inject(Router);
+  private loginService = inject(LoginService);
+  username='';
+  password='';
 
   login() {
-    localStorage.setItem('token', 'your-token-here');
-    this.router.navigate(['/admin']);
+    this.loginService.getUsers().subscribe(users => {
+      const user= users.find(u => u.username === this.username && u.password === this.password);
+      if (user) {
+        localStorage.setItem('token', 'your-token-here');
+        this.router.navigate(['/admin']);
+      }else{
+        alert('Invalid username or password');
+      }
+    })
   }
-
 }
