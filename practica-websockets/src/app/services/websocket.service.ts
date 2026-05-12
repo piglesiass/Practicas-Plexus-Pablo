@@ -1,12 +1,17 @@
 import { Injectable } from '@angular/core';
 import { webSocket } from 'rxjs/webSocket';
 
+export interface SocketMessage {
+  mensaje: string;
+  numero: number;
+}
+
 @Injectable({
   providedIn: 'root'
 })
 export class WebsocketService {
 
-  socket$ = webSocket({url: 'ws://localhost:3000',
+  socket$ = webSocket<SocketMessage>({url: 'ws://localhost:3000',
     openObserver: {
       next: () => console.log('Conexión abierta')
     },
@@ -19,7 +24,7 @@ export class WebsocketService {
     return this.socket$;
   }
 
-  sendMessage(msg: any) {
+  sendMessage(msg: SocketMessage) {
     this.socket$.next(msg);
   }
 }
