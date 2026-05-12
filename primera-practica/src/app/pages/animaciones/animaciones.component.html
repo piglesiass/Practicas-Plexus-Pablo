@@ -1,0 +1,34 @@
+<p class="subtitulo">{{ 'HOME.SUBTITULO' | translate }}</p>
+<button mat-flat-button class="boton">{{ 'HOME.BOTON' | translate }}</button>
+<div class="scroll"></div>
+
+<ul class="lista">
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+  <li>Elemento 4</li>
+</ul>
+
+<div class="pelota"></div>
+<button mat-flat-button (click)="play()">play</button>
+<button mat-flat-button (click)="pause()">pause</button>
+<button mat-flat-button (click)="reverse()">reverse</button>
+<button mat-flat-button (click)="seek()">seek</button>
+<button mat-flat-button (click)="progress()">progress</button>
+<br>
+<button mat-flat-button (click)="animacion()" class="b8">Animación</button>
+
+<div class="cursor"></div>
+
+<div class="box">Responsive</div>
+
+<mat-divider></mat-divider>
+
+<div>
+    <app-card class="card-item"></app-card>
+    <app-card class="card-item"></app-card>
+    <app-card class="card-item"> </app-card>   
+</div>
+
+
+<app-footer></app-footer>

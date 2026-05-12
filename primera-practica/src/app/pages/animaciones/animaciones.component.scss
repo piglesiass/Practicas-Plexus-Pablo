@@ -1,0 +1,56 @@
+p{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+div{
+    display:flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content:space-around;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+body{
+    background-color: black;
+}
+button {
+  color: white;
+  font-size: 15px;
+  margin: 20px;
+}
+.pelota {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #810081;
+}
+.scroll {
+  position: fixed;
+  right: 1;
+  top: 0;
+  width: 5px;
+  height: 150px;
+  background-color: #810081;
+  margin: 0px;
+  border: 2px solid rgba(255, 255, 255, 0.253);
+}
+.cursor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #810081;
+  pointer-events: none;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #810081;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

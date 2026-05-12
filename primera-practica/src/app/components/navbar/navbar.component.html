@@ -2,6 +2,8 @@
   <a mat-button routerLink="/">{{ 'NAVBAR.HOME' | translate }}</a>
   <a mat-button routerLink="/about">{{ 'NAVBAR.ABOUT' | translate }}</a>
   <a mat-button routerLink="/contacto">{{ 'NAVBAR.CONTACT' | translate }}</a>
+  <a mat-button routerLink="/animaciones">{{ 'NAVBAR.ANIM' | translate }}</a>
+
   <span class="spacer"></span>
   @if (isLoggedIn()){
     <button mat-flat-button (click)="logut()">{{ 'NAVBAR.LOGOUT' | translate }}</button>

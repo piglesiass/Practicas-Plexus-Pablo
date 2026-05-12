@@ -11,4 +11,5 @@ export const routes: Routes = [
     {path: 'user/:id', loadComponent: () => import('./pages/user-detalles/user-detalles.component').then(m => m.UserDetallesComponent)},
     {path: 'login', loadComponent: () => import('./pages/login/login.component').then(m => m.LoginComponent)},
     {path: 'admin', loadComponent: () => import('./pages/admin/admin.component').then(m => m.AdminComponent), canActivate: [authGuard]},
+    {path: 'animaciones', loadComponent: () => import('./pages/animaciones/animaciones.component').then(m => m.AnimacionesComponent)}
 ];
