@@ -8,9 +8,7 @@
         "LOGIN": "Login"
     },
     "HOME": {
-        "BIENVENIDO": "Welcome to the page of ",
-        "SUBTITULO": "Testing Subtext",
-        "BOTON": "See more"
+        "BIENVENIDO": "Welcome to the page of "
     },
     "CARD": {
         "TEXT": "Example card"
@@ -55,5 +53,14 @@
         "EMAIL": "Email",
         "PASSWORD": "Password",
         "BUTTON": "Login"
+    },
+    "ANIMATION": {
+        "SUBTITULO": "Testing Subtext",
+        "BOTON": "See more",
+        "ELEMENT": "Element",
+        "PLAY": "Play",
+        "PAUSE": "Pause",
+        "REVERSE": "Reverse",
+        "ANIMATION": "Animation"
     }
 }

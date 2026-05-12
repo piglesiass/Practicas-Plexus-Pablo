@@ -8,9 +8,7 @@
         "LOGIN": "Iniciar Sesión"
     },
     "HOME": {
-        "BIENVENIDO": "Bienvenido a la página de ",
-        "SUBTITULO": "Subtexto de prueba",
-        "BOTON": "Ver más"
+        "BIENVENIDO": "Bienvenido a la página de "
     },
     "CARD": {
         "TEXT": "Card de ejemplo"
@@ -55,5 +53,14 @@
         "EMAIL": "Correo electrónico",
         "PASSWORD": "Contraseña",
         "BUTTON": "Iniciar sesión"
+    },
+    "ANIMATION": {
+        "SUBTITULO": "Subtexto de prueba",
+        "BOTON": "Ver más",
+        "ELEMENT": "Elemento",
+        "PLAY": "Iniciar",
+        "PAUSE": "Pausar",
+        "REVERSE": "Reversa",
+        "ANIMATION": "Animación"
     }
 }

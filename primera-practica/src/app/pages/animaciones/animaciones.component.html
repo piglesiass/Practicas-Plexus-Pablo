@@ -1,22 +1,22 @@
-<p class="subtitulo">{{ 'HOME.SUBTITULO' | translate }}</p>
-<button mat-flat-button class="boton">{{ 'HOME.BOTON' | translate }}</button>
+<p class="subtitulo">{{ 'ANIMATION.SUBTITULO' | translate }}</p>
+<button mat-flat-button class="boton">{{ 'ANIMATION.BOTON' | translate }}</button>
 <div class="scroll"></div>
 
 <ul class="lista">
-  <li>Elemento 1</li>
-  <li>Elemento 2</li>
-  <li>Elemento 3</li>
-  <li>Elemento 4</li>
+  <li>{{ 'ANIMATION.ELEMENT' | translate }} 1</li>
+  <li>{{ 'ANIMATION.ELEMENT' | translate }} 2</li>
+  <li>{{ 'ANIMATION.ELEMENT' | translate }} 3</li>
+  <li>{{ 'ANIMATION.ELEMENT' | translate }} 4</li>
 </ul>
 
 <div class="pelota"></div>
-<button mat-flat-button (click)="play()">play</button>
-<button mat-flat-button (click)="pause()">pause</button>
-<button mat-flat-button (click)="reverse()">reverse</button>
+<button mat-flat-button (click)="play()">{{ 'ANIMATION.PLAY' | translate }}</button>
+<button mat-flat-button (click)="pause()">{{ 'ANIMATION.PAUSE' | translate }}</button>
+<button mat-flat-button (click)="reverse()">{{ 'ANIMATION.REVERSE' | translate }}</button>
 <button mat-flat-button (click)="seek()">seek</button>
 <button mat-flat-button (click)="progress()">progress</button>
 <br>
-<button mat-flat-button (click)="animacion()" class="b8">Animación</button>
+<button mat-flat-button (click)="animacion()" class="b8">{{ 'ANIMATION.ANIMATION' | translate }}</button>
 
 <div class="cursor"></div>
 
