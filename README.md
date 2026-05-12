@@ -109,17 +109,35 @@ Aplicación para practicar Server-Sent Events (SSE) en tiempo real.
 
 ---
 
+### 4. `practica-websockets`
+Aplicación para practicar WebSockets bidireccionales en tiempo real.
+
+**Contenido:**
+- Servidor Node.js con la librería `ws` que emite y recibe mensajes
+- Conexión WebSocket con `webSocket` de RxJS desde Angular
+- Muestra de mensajes recibidos en tiempo real en una lista
+- Envío de mensajes al servidor con `socket$.next()`
+- Manejo de apertura y cierre con `openObserver` y `closeObserver`
+- Manejo de errores en el subscribe
+- Servicio `WebsocketService` que encapsula la conexión y la reutiliza
+- Interfaz `SocketMessage` para tipar los mensajes
+- Cierre de conexión en `ngOnDestroy` con `unsubscribe()`
+- Filtrado de mensajes por tipo (`chat`, `notification`) usando `filter` de RxJS
+
+---
+
 ## Tecnologías
 
 - [Angular 19](https://angular.dev)
 - TypeScript
-- SCSS
+- SCSS / CSS
 - [ngx-translate](https://github.com/ngx-translate/core)
 - [Angular Material](https://material.angular.dev)
 - [JSONPlaceholder API](https://jsonplaceholder.typicode.com)
 - [json-server](https://github.com/typicode/json-server)
 - [GSAP](https://gsap.com)
-- Node.js (servidor SSE)
+- Node.js (servidores SSE y WebSockets)
+- RxJS
 
 ---
 
@@ -130,7 +148,7 @@ Aplicación para practicar Server-Sent Events (SSE) en tiempo real.
 git clone <url-del-repositorio>
 
 # Entrar en el proyecto
-cd primer-proyecto  # o primera-practica o practica-sse
+cd primer-proyecto  # o primera-practica, practica-sse, practica-websockets
 
 # Instalar dependencias
 npm install
@@ -139,12 +157,17 @@ npm install
 ng serve
 ```
 
-Para `primera-practica` también necesitas json-server:
+**Para `primera-practica`** también necesitas json-server:
 ```bash
 npx json-server --watch db.json --port 3000
 ```
 
-Para `practica-sse` también necesitas el servidor SSE:
+**Para `practica-sse`** también necesitas el servidor SSE:
+```bash
+node server.js
+```
+
+**Para `practica-websockets`** también necesitas el servidor WebSocket:
 ```bash
 node server.js
 ```
