@@ -1,0 +1,37 @@
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+mat-card {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #242123;
+    border: 2px solid rgba(255, 255, 255, 0.253);
+    overflow: hidden;
+
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+p {
+    border-bottom: 1px solid #4e444b;
+    padding: 10px;
+}
+
+mat-card-header {
+    color: #ffabf3;
+    padding: 16px;
+    background-color: #810081;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+

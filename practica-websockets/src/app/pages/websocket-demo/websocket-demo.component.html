@@ -1,0 +1,8 @@
+<input type="text" [(ngModel)]="mensaje" placeholder="Escribe un mensaje">
+<button (click)="enviar()">Enviar</button>
+
+<ul>
+    @for (mensaje of mensajes; track $index) {
+        <li>{{ mensaje }}</li>
+    }
+</ul>
